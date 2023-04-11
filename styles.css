@@ -1,8 +1,9 @@
 /*  your css code here. If applicable */
-div{
-	background-color:blue;
+div{ 
+	align-items:center;
+	background-color:lightgray; 
 	width:300px;
-	height:400px;
+	height:430px;
 	position:center;
 }
 .image{
@@ -11,11 +12,23 @@ div{
 	margin-bottom:-60px; 
 }
 .h1{
-	padding:0px 40px; 
+	padding:0px 40px;
+	margin-bottom:-20px;
 }
 .p1{
-	padding:0px 40px;
+	padding:0px 80px;
+	margin-bottom:-20px;
 }
 .p2{
 	padding: 0px 40px;
+}
+.btn{
+	background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
