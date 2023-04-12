@@ -1,4 +1,4 @@
-/*  your css code here. If applicable */
+
 div{ 
 	align-items:center;
 	background-color:lightgray; 
@@ -7,28 +7,27 @@ div{
 	position:center;
 }
 .image{
-	width:200px;
-	padding:40px;
-	margin-bottom:-60px; 
+	width:220px;
+	padding-top:40px;
+	
 }
-.h1{
-	padding:0px 40px;
-	margin-bottom:-20px;
+h1{
+	margin:0px;
+	
 }
-.p1{
-	padding:0px 80px;
-	margin-bottom:-20px;
-}
-.p2{
-	padding: 0px 40px;
+p{
+	margin:0px; 
+	font-weight:bold;
+	font-size:25px
 }
 .btn{
-	background-color: orangered;
-  color: white;
+	margin-top:40px;
+	background-color:orangered;
+   color: white;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
